@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px; 
+    height: auto;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 120px auto 120px; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: #4d90fe; 
+    text-align: center;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4d90fe; 
+    font-weight: bold; 
+}
+
+
+input[type="text"],
+input[type="number"] {
+    width: calc(50% - 20px); 
+    padding: 5px; 
+    margin-bottom: 10px;
+    margin-right: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #4d90fe, #357ae8); 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #357ae8, #4d90fe); 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+th {
+    background: linear-gradient(to bottom, #4d90fe, #357ae8); 
+    color: white;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+
+
+
+.data-table table {
+    margin: 120px auto 120px;
+    width: 44.5%; 
+    border-collapse: collapse;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+.data-table th,
+.data-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
